@@ -6,7 +6,7 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../mp2-Lab3-stacknquer
+  - cmake ../mp2-Lab3-staknquer
   - make -j
   - ./test/test_TSteck
 notifications:
